@@ -226,7 +226,7 @@ export default class Input_OrderInfo extends React.Component {
       console.log("---Order OK--");
       // expressのサーバーへPOSTß
       var body_obj = { order_info: this.state.info_obj };
-      var url = "http://localhost:3000/users/post_test";
+      var url = "http://localhost:4000/users/post_test";
       // "https://q0u8y.sse.codesandbox.io/post_test"
       fetch(url, {
         method: "POST",
